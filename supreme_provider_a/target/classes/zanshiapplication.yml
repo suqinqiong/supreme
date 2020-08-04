@@ -1,0 +1,29 @@
+server:
+  port: 18083
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  application:
+    name: supreme-provider #服务的名字,不同的应用，名字不同，如果是集群，名字需要相同
+  #指定 eureka 服务地址
+eureka:
+  client:
+    service-url:
+      # EurekaServer 的地址
+      defaultZone: http://localhost:7001/eureka
+      # 每隔 30 获取服务列表(只读备份)
+      registry-fetch-interval-seconds: 30
+  instance:
+    # 指定IP地址：
+    ip-address: 127.0.0.1
+    # 访问服务的时候，推荐IP
+    prefer-ip-address: true
+    # 租约到期，服务时效时间，默认值 90 秒
+    lease-expiration-duration-in-seconds: 150
+    # 租约续约间隔时间，默认 30 秒
+    lease-renewal-interval-in-seconds: 30
+test:
+  message: supreme-provider-a hello!
