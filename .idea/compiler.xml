@@ -14,6 +14,15 @@
         <module name="supreme_provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="supreme" target="1.8" />
+      <module name="supreme_config" target="1.8" />
+      <module name="supreme_consumer" target="1.8" />
+      <module name="supreme_eureka" target="1.8" />
+      <module name="supreme_gateway" target="1.8" />
+      <module name="supreme_provider" target="1.8" />
+      <module name="supreme_provider_a" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -21,7 +30,6 @@
       <module name="supreme_consumer" options="-parameters" />
       <module name="supreme_eureka" options="-parameters" />
       <module name="supreme_gateway" options="-parameters" />
-      <module name="supreme_parent" options="-parameters" />
       <module name="supreme_provider" options="-parameters" />
       <module name="supreme_provider_a" options="-parameters" />
     </option>
