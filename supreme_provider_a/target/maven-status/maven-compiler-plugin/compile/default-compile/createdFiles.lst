@@ -1,7 +1,0 @@
-com\objcom\supreme\controller\LoadConfigController.class
-com\objcom\supreme\controller\UserController.class
-com\objcom\supreme\SupremeProviderApplication.class
-com\objcom\supreme\dao\UserDao.class
-com\objcom\supreme\service\impl\UserServiceImpl.class
-com\objcom\supreme\service\UserService.class
-com\objcom\supreme\domain\User.class

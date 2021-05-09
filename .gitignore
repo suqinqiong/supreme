@@ -21,10 +21,5 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/supreme_config/target/
-/supreme_consumer/target/
-/supreme_eureka/target/
-/supreme_gateway/target/
-/supreme_provider/target/
-/supreme_provider_a/target/
-.idea/
+/target/
+/.idea/
